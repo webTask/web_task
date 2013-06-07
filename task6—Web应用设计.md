@@ -57,7 +57,8 @@ Dreamweaver，是个原本由Macromedia公司所开发的著名网站开发工�
 ![alt text](http://ww4.sinaimg.cn/mw1024/8a9dfd75jw1e5folmrj14j20k80dvacq.jpg)
 		图 2   访问出错
 ![alt text](http://ww3.sinaimg.cn/mw1024/8a9dfd75jw1e5folnmlkvj20hy0a6jrw.jpg)	
-		图3    注册
+	图3    注册
+
 ![alt text](http://ww2.sinaimg.cn/mw1024/8a9dfd75jw1e5fp1sb7imj20e408ajsb.jpg)
 	        	图4  登陆   
 ![alt text](http://ww2.sinaimg.cn/mw1024/8a9dfd75jw1e5folm7xa8j20n7098jvn.jpg)
