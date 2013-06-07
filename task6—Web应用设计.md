@@ -59,10 +59,10 @@ Dreamweaver，是个原本由Macromedia公司所开发的著名网站开发工�
 ![alt text](http://ww3.sinaimg.cn/mw1024/8a9dfd75jw1e5folnmlkvj20hy0a6jrw.jpg)	
 		图3    注册
 ![alt text](http://ww2.sinaimg.cn/mw1024/8a9dfd75jw1e5fp1sb7imj20e408ajsb.jpg)
-		图4  登陆   
+	        	图4  登陆   
 ![alt text](http://ww2.sinaimg.cn/mw1024/8a9dfd75jw1e5folm7xa8j20n7098jvn.jpg)
 ![alt text](http://ww2.sinaimg.cn/mw1024/8a9dfd75jw1e5folnb1kfj20o906u0uj.jpg)
-		图5   布局与内容
+	图5   布局与内容
 五．功能设计
 	1.	集成
 以数据层—应用层—功能层为主要层次。数据层完成不同数据间的转换和复制。应用层依赖于中间件，对时间及语义进行设计，功能层对基础框架进行建模。
