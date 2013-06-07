@@ -51,6 +51,7 @@ Dreamweaver，是个原本由Macromedia公司所开发的著名网站开发工�
 	6.	导航机制
 对于整个web页面进行导航，并把相同层次的功能聚集在一处，完善页面的整洁。
 图片展示：
+
 ![alt text](http://ww2.sinaimg.cn/mw1024/8a9dfd75jw1e5follgzszj20ai0a5q4r.jpg)
 ![alt text](http://ww4.sinaimg.cn/mw1024/8a9dfd75jw1e5folmrj14j20k80dvacq.jpg)
 ![alt text](http://ww3.sinaimg.cn/mw1024/8a9dfd75jw1e5folnmlkvj20hy0a6jrw.jpg)
