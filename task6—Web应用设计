@@ -19,7 +19,7 @@
 5.	用户注册，用户注册采用双重注册模式，即开始用户只需填写用户名、密码等简单信息即可完成注册，当用户基本了解本网站之后，再促使用户填写详细信息。
 5.1	用session和cookie技术记录用户信息，方便下次用户一键登录。 
 5.2	出错处理，当方式访问错误时，本网站会自动跳转到一个友好的界面，提示用户网站出错信息，并提出建议告诉用户如何解决此问题。
-交互设计图片展示：
+
 
 三．	展示设计
 1.	设计工具
@@ -50,6 +50,12 @@ Dreamweaver，是个原本由Macromedia公司所开发的著名网站开发工�
 对图标和菜单进行超链接，完成导航，并在用户中心设置功能管理，并在各个页面贴有标签说明和必要的导航。
 	6.	导航机制
 对于整个web页面进行导航，并把相同层次的功能聚集在一处，完善页面的整洁。
+图片展示：
+![alt next](http://ww2.sinaimg.cn/mw1024/8a9dfd75jw1e5follgzszj20ai0a5q4r.jpg)
+！[alt next](http://ww4.sinaimg.cn/mw1024/8a9dfd75jw1e5folmrj14j20k80dvacq.jpg)
+！[alt next](http://ww3.sinaimg.cn/mw1024/8a9dfd75jw1e5folnmlkvj20hy0a6jrw.jpg)
+！[alt next](http://ww2.sinaimg.cn/mw1024/8a9dfd75jw1e5folm7xa8j20n7098jvn.jpg)
+！[alt next](http://ww2.sinaimg.cn/mw1024/8a9dfd75jw1e5folnb1kfj20o906u0uj.jpg)
 
 五．功能设计
 	1.	集成
