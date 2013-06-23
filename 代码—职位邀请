@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>职位邀请</title>
+	<link href="default3.css" rel="stylesheet" type="text/css" />
+	<script type = "text/javascript">	
+		var cssText="background: #F9F8F1;border-bottom:none;"
+		var cssText1 = "background:#FFFFFF;border-bottom:groove";
+	function detect(name)
+	{
+		var user = document.cookie.split(";")[0].split("=")[1];
+		if(user == 0||user==null||typeof user=="undefined")
+		{
+			alert("还未登录,请先登录!");
+			window.location.href="登录.html";
+		}
+		else if(name=="jianli")
+		{
+			window.location.href="个人简历.html";
+		}
+		else if(name =="yaoqing")
+		{
+			window.location.href="职位邀请.html";
+		}
+	}
+		/*function chuliCss(var name)
+		{
+			var id = document.getElementById(name);
+			var waitL = document.getElementById("waitL");
+			var acceptL = document.getElementById("acceptL");
+			var ignoreL = document.getElementById("ignoreL");
+			waitL.Style.cssText = cssText1;
+			acceptL.Style.cssText = cssText1;
+			ignoreL.Style.cssText = cssText1;
+			id.Style.cssText = cssText;
+		}*/		
+		function waitchuli()
+		{
+			var ID = document.getElementById("infos");
+			ID.innerHTML = "<p>三星集团</p><p>TCL公司</p><p>广州百田信息科技有限公司</p><p>触控科技有限公司</p><p>奥博杰天软件有限公司</p>";
+
+		}
+		function accept()
+		{
+			var ID = document.getElementById("infos");
+			ID.innerHTML = "<p>深圳腾讯有限公司</p><p>微软中国</p><p>百度有限公司</p>";
+
+		}
+		function ignore()
+		{
+			var ID = document.getElementById("infos");
+			ID.innerHTML = "<p>中国移动</p><p>AcFun弹幕视频网站</p>";
+		}
+	</script>
+</head>
+<body>
+<div id="header">
+  <div id="logo">
+    <h1><a href="#">职位邀请</a></h1>
+    <h2><a href="">for your future</a></h2>
+  </div>
+  <div id="search">
+    <form id="searchform" method="get" action="">
+      <fieldset>
+      <legend>Search</legend>
+      <input id="searchinput" type="text" name="searchinput" value="" />
+      <input id="searchsubmit" type="submit" value="Search" />
+      </fieldset>
+    </form>
+  </div>
+</div>
+<div id="menu">
+	<ul>
+		<li><a href="主页.html">主页</a></li>
+		<li><a href="#" onclick=detect("jianli")>我的简历</a></li>
+		<li class="active"><a href="#" onclick=detect("yaoqing")>职位邀请</a></li>
+		<li><a href="登录.html">登录</a></li>
+		<li><a href="关于.html">关于</a></li>
+	</ul>
+</div>
+<hr/>
+<div id = "page">
+<h1>通知</h1>
+<div id = "chuli">
+	<div id = "list">
+	<ul>
+		<li id="waitL"><a onclick="waitchuli()">等待处理的</a></li>
+		<li id="acceptL"><a onclick="accept()">已接受的邀请</a></li>
+		<li id="ignoreL"><a onclick="ignore()">已忽略的邀请</a></li>
+	</ul>
+	</div>
+	<div id = "infos">
+		<p>三星集团</p><p>TCL公司</p><p>广州百田信息科技有限公司</p><p>触控科技有限公司</p><p>奥博杰天软件有限公司</p>
+	</div>
+</div>
+</div>
+<div id="footer">
+  <p id="legal">131012班2组</p>
+  <p id="links">
+  <a href="#">李焱达</a> | <a href="#">潘群晗</a> | <a href="#">汪毅祥</a> | <a href="#">白梦娜</a>| <a href="#">邵佳翼</a>|<a href="#">田园</a></p>
+</div>
+</body>
+</html>
