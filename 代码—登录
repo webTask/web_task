@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>公司招聘</title>
+  <link href="default5.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+  function detect(name)
+  {
+    var user = document.cookie.split(";")[0].split("=")[1];
+    if(user == 0||user==null||typeof user=="undefined")
+    {
+      alert("还未登录,请先登录!");
+      window.location.href="登录.html";
+    }
+    else if(name=="jianli")
+    {
+      window.location.href="个人简历.html";
+    }
+    else if(name =="yaoqing")
+    {
+      window.location.href="职位邀请.html";
+    }
+  }
+    function login()
+    {
+        var username = document.getElementById("u");
+        var password = document.getElementById("p");
+        if(username.value=="131012"&&password.value=="131012")
+        {
+            document.cookie="username="+"131012;";
+            document.cookie="password="+"131012;";
+            alert("登录成功!");
+            window.location.href = "主页.html";
+        }
+        else
+        {
+            alert("账号密码错误,登录失败!");
+        }
+    }
+  </script>
+</head>
+<body>
+<div id="header">
+  <div id="logo">
+    <h1><a href="#">公司招聘</a></h1>
+    <h2><a href="">for your future</a></h2>
+  </div>
+  <div id="search">
+    <form id="searchform" method="get" action="">
+      <fieldset>
+      <legend>Search</legend>
+      <input id="searchinput" type="text" name="searchinput" value="" />
+      <input id="searchsubmit" type="submit" value="Search" />
+      </fieldset>
+    </form>
+  </div>
+</div>
+<div id="menu">
+  <ul>
+    <li><a href="主页.html">主页</a></li>
+    <li><a href="#" onclick=detect("jianli")>我的简历</a></li>
+    <li><a href="#" onclick=detect("yaoqing")>职位邀请</a></li>
+    <li  class="active"><a href="登录.html">登录</a></li>
+    <li><a href="关于.html">关于</a></li>
+  </ul>
+</div>
+<hr/>
+<div id="page">
+  <div id ="logIn">
+    <p class="account">账号:<input id="u" class="accountInput" type="text"/></p>
+    <p class="password">密码:<input id="p" class="passwdInput" type="password"/></p>
+    <p><span><input class="log" onclick="login()"  type="submit" value="登录"/></span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="register"><a class ="register" href="#">注册</a></span></p>
+</div>
+</div>  
+<div id="footer">
+  <p id="legal">131012班2组</p>
+  <p id="links">
+  <a href="#">李焱达</a> | <a href="#">潘群晗</a> | <a href="#">汪毅祥</a> | <a href="#">白梦娜</a>| <a href="#">邵佳翼</a>|<a href="#">田园</a></p>
+</div>
+</body>
+</html>
