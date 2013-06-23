@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default1.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+  function detect(name)
+	{
+		var user = document.cookie.split(";")[0].split("=")[1];
+		if(user == 0||user==null||typeof user=="undefined")
+		{
+			alert("还未登录,请先登录!");
+			window.location.href="登录.html";
+		}
+		else if(name=="jianli")
+		{
+			window.location.href="个人简历.html";
+		}
+		else if(name =="yaoqing")
+		{
+			window.location.href="职位邀请.html";
+		}
+	}
+</script>
+</head>
+<body>
+<div id="header">
+	<div id="logo">
+		<h1><a href="#">校园招聘网</a></h1>
+		<h2><a href="#">for your future</a></h2>
+	</div>
+	<div id="search">
+		<form id="searchform" method="get" action="">
+			<fieldset>
+			<legend>Search</legend>
+			<input id="searchinput" type="text" name="searchinput" value="" />
+			<input id="searchsubmit" type="submit" value="Search" />
+			</fieldset>
+		</form>
+	</div>
+</div>
+<div id="menu">
+	<ul>
+		<li class="active"><a href="主页.html">主页</a></li>
+		<li><a href="#" onclick=detect("jianli")>我的简历</a></li>
+		<li><a href="#" onclick=detect("yaoqing")>职位邀请</a></li>
+		<li><a href="登录.html">登录</a></li>
+		<li><a href="关于.html">关于</a></li>
+	</ul>
+</div>
+<hr />
+<div id="page">
+	<div id="content">
+		<div>
+			<h1 class="title">今日招聘</h1>
+			<p><img src="images/img09.jpg" alt="" width="118" height="118" class="right" /></p>
+			<h2>实习中</h2>
+			<p><strong>三星公司</strong>正在寻找 <a href="公司招聘.htm">实习生</a>  <br />
+			<strong>TCL</strong>正在寻找 <a href="#">嵌入式工程师</a> <br />
+			<strong>微软</strong>正在寻找 <a href="#">软件工程师</a>  <br />
+			<strong>奥博杰天</strong>正在寻找 <a href="#">初级架构师</a>  <br />
+			<strong>中国银行</strong>正在寻找 <a href="#">业务主管</a>  <br />
+			</p>
+			<h2>工作中</h2>
+			<p><strong>北京白象新技术有限公司</strong>正在寻找 <a href="#">专利注册能人</a>  <br />
+			<strong>西安华朗软件技术有限公司</strong>正在寻找 <a href="#">储备干部</a>  <br />
+			<strong>陕西昱琛航空设备有限公司</strong>正在寻找 <a href="#">质量管理员</a>  <br />
+			</p>
+		</div>
+		<div class="twocols">
+			<div class="col1">
+				<h2 class="title">公司链接</h2>
+				<ul class="list">
+				<li><a href="#">腾讯招聘</a></li>
+				<li><a href="#">腾讯招聘</a></li>
+				<li><a href="#">腾讯招聘</a></li>
+				<li><a href="#">腾讯招聘</a></li>
+				<li><a href="#">腾讯招聘</a></li>
+				</ul>
+				<p><a href="#">Read more&hellip;</a></p>
+			</div>
+			<div class="col2">
+				<h2 class="title">学校招聘网站</h2>
+				<ul class="list">
+					<li><a href="#">西安电子科技大学</a></li>
+					<li><a href="#">西安电子科技大学</a></li>
+					<li><a href="#">西安电子科技大学</a></li>
+					<li><a href="#">西安电子科技大学</a></li>
+					<li><a href="#">西安电子科技大学</a></li>
+				</ul>
+				<p><a href="#">Read more&hellip;</a></p>
+			</div>
+		</div>
+	</div>
+	<div id="sidebar">
+		<ul>
+			<li>
+				<h3>点击最高</h3>
+				<ul>
+					<li>
+						
+						<p><strong>1.微软亚洲研究院</strong><a href="#">招聘技术实习生</a></p>
+						<p><strong>2.腾讯</strong><a href="#">招聘测试工程师</a></p>
+						<p><strong>3.中国移动</strong><a href="#">招聘业务员</a></p>
+						<p><strong>1.微软亚洲研究院</strong><a href="#">招聘实习生</a></p>
+						<p><strong>1.微软亚洲研究院</strong><a href="#">招聘实习生</a></p>
+						<p><strong>1.微软亚洲研究院</strong><a href="#">招聘实习生</a></p>
+						<p><strong>1.微软亚洲研究院</strong><a href="#">招聘实习生</a></p>
+						<p><strong>1.微软亚洲研究院</strong><a href="#">招聘实习生</a></p>
+						<p><strong>1.微软亚洲研究院</strong><a href="#">招聘实习生</a></p>
+						<p><strong>1.微软亚洲研究院</strong><a href="#">招聘实习生</a></p>
+					</li>					
+				</ul>
+			</li>
+			<li>
+				<h2>提交最多</h2>
+				<ul>
+					<p><strong>1.微软亚洲研究院</strong><a href="#">招聘实习生</a></p>
+					<p><strong>1.微软亚洲研究院</strong><a href="#">招聘实习生</a></p>
+					<p><strong>1.微软亚洲研究院</strong><a href="#">招聘实习生</a></p>
+					<p><strong>1.微软亚洲研究院</strong><a href="#">招聘实习生</a></p>
+					<p><strong>1.微软亚洲研究院</strong><a href="#">招聘实习生</a></p>
+					<p><strong>1.微软亚洲研究院</strong><a href="#">招聘实习生</a></p>
+					<p><strong>1.微软亚洲研究院</strong><a href="#">招聘实习生</a></p>
+					<p><strong>1.微软亚洲研究院</strong><a href="#">招聘实习生</a></p>		
+					<p><strong>1.微软亚洲研究院</strong><a href="#">招聘实习生</a></p>
+					<p><strong>1.微软亚洲研究院</strong><a href="#">招聘实习生</a></p>			
+					
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div style="clear: both;">&nbsp;</div>
+</div>
+<hr />
+<div id="footer">
+  <p id="legal">131012班2组</p>
+  <p id="links">
+  <a href="#">李焱达</a> | <a href="#">潘群晗</a> | <a href="#">汪毅祥</a> | <a href="#">白梦娜</a>| <a href="#">邵佳翼</a>|<a href="#">田园</a></p>
+</div>
+</body>
+</html>
