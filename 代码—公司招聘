@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>公司招聘</title>
+  <link href="default1.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+  function detect(name)
+  {
+    var user = document.cookie.split(";")[0].split("=")[1];
+    if(user == 0||user==null||typeof user=="undefined")
+    {
+      alert("还未登录,请先登录!");
+      window.location.href="登录.html";
+    }
+    else if(name=="jianli")
+    {
+      window.location.href="个人简历.html";
+    }
+    else if(name =="yaoqing")
+    {
+      window.location.href="职位邀请.html";
+    }
+  }
+</script>
+</head>
+<body>
+<div id="header">
+  <div id="logo">
+    <h1><a href="#">公司招聘</a></h1>
+    <h2><a href="">for your future</a></h2>
+  </div>
+  <div id="search">
+    <form id="searchform" method="get" action="">
+      <fieldset>
+      <legend>Search</legend>
+      <input id="searchinput" type="text" name="searchinput" value="" />
+      <input id="searchsubmit" type="submit" value="Search" />
+      </fieldset>
+    </form>
+  </div>
+</div>
+<div id="menu">
+  <ul>
+    <li class="active"><a href="主页.html">主页</a></li>
+    <li><a href="#" onclick=detect("jianli")>我的简历</a></li>
+    <li><a href="#" onclick=detect("yaoqing")>职位邀请</a></li>
+    <li><a href="登录.html">登录</a></li>
+    <li><a href="关于.html">关于</a></li>
+  </ul>
+</div>
+<hr/>
+<!-- 产品需求，约翰迪尔私密讨论区返回链接 -->
+<div id = "page1">
+<div class="topic-msg">
+<h3>【深圳】三星通信技术研究有限公司2013校园招聘&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><a href="三星集团.html">主页</a><span></h3>
+深圳三星通信技术研究有限公司（SRC-Shenzhen）简略介绍:<br/>
+三星电子网络事业部成立于1977年, 致力于推进移动通信技术的发展，向世界第一挑战。<br/>
+深圳三星通信技术研究有限公司以中国的优秀人才和技术为基础，开发具有竞争力的移动通信基站产品。<br/>
+我司主要业务：<br/>
+1. 3G／4G通信系统硬件设计：包括射频电路，模拟数字电路，电源系统和滤波器设计。<br/>
+2. 3G／4G通信系统软件设计：嵌入式系统软件（DSP, ARM)<br/>
+3. 3G／4G通信系统结构设计：机械结构设计，散热设计<br/>
+公司地址：深圳市南山区高新中四道31号 研祥科技大厦12楼，三星<br/>
+我司针对应届生，现招以下9个职位，招聘需求如下，<br/>
+报名截止时间为：持续招聘。<br/>
+报名方式<br/>
+有意者请将申请材料（如简历和个人联系电话）通过电子邮件方式发送至xin.quan@samsung.<br/>com，简历初审通过者，安排电话面试，电话面试通过者安排面试和笔试。<br/>
+招聘形式：简历筛选，电话面试，面试，笔试等<br/>
+招聘专业：信息与通信，电子工程，计算机等相关专业<br/>
+联系人：全鑫<br/>
+联系方式：0755-26396358<br/>
+邮箱：xin.quan@samsung.com<br/>
+
+<h4>1. Power Amplifier Engineer：</h4>
+- 担当业务 . 功放设计 . 功放电路及PCB设计，测试 (驱动级,末级, 阻抗匹配, 隔离器, 偏置回路 等) . 功放回路及元件选型测试<br/>
+- 学历要求：本科<br/>
+请符合条件者发送中文和英文简历<br/>
+工作地点：深圳
+<br/>
+<h4>2. Filter Engineer ：</h4>
+- 担当业务 . 滤波器规格审查及选定 . 腔体滤波器, 介质谐振器 . 滤波器设计及开发测试 . 滤波器仿真<br/>
+- 学历要求：本科<br/>
+请符合条件者发送中文和英文简历<br/>
+工作地点：深圳
+<br/>
+<h4>3. Transceiver RF Engineer：</h4>
+- 担当业务 . 射频收发信机设计 (链路预算, 噪声分析, 频率规划, 仿真等) . 收发信机回路设计和测试 (射频前端, 低噪放, 锁相环, 混频器, 放大器, <br/>衰减器, 射频电路板设计等)<br/>
+- 学历要求：本科<br/>
+请符合条件者发送中文和英文简历<br/>
+工作地点：深圳
+<br/>
+<h4>4. Transceiver Digital Engineer：</h4>
+- 担当业务 . 收发信机数字部分设计 (链路预算, 噪声分析, 频率规划, 仿真等) . 收发信机数字电路设计及测试 (FPGA, MCU/DSP, Memory, Clock, <br/>Optic Interface, ADC, DAC, 控制接口 及 周边回路, PCB 设计 等) . FPGA 逻辑设计, 仿真 及编程 (CPRI, DUC/DDC, Digital Filter, Equalizer 等)<br/>
+- 学历要求：本科<br/>
+请符合条件者发送中文和英文简历<br/>
+工作地点：深圳
+<br/>
+
+<h4>5. Software (Firmware)软件工程师：</h4>
+- 担当业务 . 用于基站射频单元RRH、RRU的 Firmware 设计（ARM/MPC/DSP平台 Device Control, IPC, Alarm 设计等) . Firmware 编程及测试 . DPD, CFR 算法实现<br/>
+- 学历要求：本科<br/>
+请符合条件者发送中文和英文简历<br/>
+工作地点：深圳<br/>
+
+<h4>6. Power电源工程师：</h4>
+- 担当业务 . 电源设计及电源模块设计 . 基站 DC/DC 设计 . 电源滤波及防雷设计 . 基站系统电源结构设计 . 具备对安全规格和规范的理解和设计实现<br/>
+- 学历要求：本科<br/>
+请符合条件者发送中文和英文简历<br/>
+工作地点：深圳
+<br/>
+<h4>7. Mechanical结构工程师：</h4>
+- 担当任务 . 站射频单元RRH、RRU结构设计 . 使用3D CAD 设计工具 . 热分析(CFD 运用分析)及散热设计 - 学历要求：本科
+请符合条件者发送中文和英文简历<br/>
+工作地点：深圳<br/>
+
+<h4>8. Verification开发测试工程师:</h4>
+- 担当业务 . 用于基站射频单元RRH、RRU的研发测试 (射频及功能测试) . 自动化测试程序开发<br/>
+- 学历要求：本科<br/>
+请符合条件者发送中文和英文简历<br/>
+工作地点：深圳<br/>
+
+<h4>9. Algorithm算法工程师:</h4>
+- 担当业务 . 用于基站射频单元RRH、RRU的DPD,CFR算法设计 . Matlab仿真, 算法实现<br/>
+- 学历要求：本科<br/>
+请符合条件者发送中文和英文简历<br/>
+工作地点：深圳     <br/> <br/>           
+</div>
+</div>
+<div id="footer">
+  <p id="legal">131012班2组</p>
+  <p id="links">
+  <a href="#">李焱达</a> | <a href="#">潘群晗</a> | <a href="#">汪毅祥</a> | <a href="#">白梦娜</a>| <a href="#">邵佳翼</a>|<a href="#">田园</a></p>
+</div>
+</body>
+</html>
